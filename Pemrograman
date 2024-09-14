@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>  
+
+using namespace std;
+
+int main() {
+    double angka, hasilAkar;
+
+    cout << "Masukkan sebuah angka: ";
+    cin >> angka;
+
+    if (angka >= 0) {
+        hasilAkar = sqrt(angka);
+        cout << "Akar kuadrat dari " << angka << " adalah " << hasilAkar << endl;
+    }
+
+
+    return 0;
+}
